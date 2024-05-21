@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+div {
+    border: solid;
+    margin: 10px;
+}
+
+.login{
+    justify-content: space-around;
+}
