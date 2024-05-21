@@ -1,15 +1,90 @@
-body{
+body {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    padding: 10px;
+}
+
+.image-login {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    /* Pour s'assurer que l'image reste circulaire même si elle n'est pas parfaitement carrée */
+    object-fit: cover;
+}
+
+
+.square-login {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.form-login {
+    display: flex;
     flex-direction: column;
-}
-
-div {
-    border: solid;
-    margin: 10px;
-}
-
-.login{
     justify-content: space-around;
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-login input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-login div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-login button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-login button[type="button"] {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.form-login button[type="button"]:hover {
+    text-decoration: none;
+}
+
+.form-login button[type="submit"] {
+    background-color: #007bff;
+}
+
+.form-login button[type="submit"]:hover {
+    background-color: #0056b3;
 }
