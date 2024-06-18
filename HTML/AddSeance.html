@@ -7,47 +7,39 @@
   <script src="script.js"></script>
 </head>
 <body>
-  <div>
+  <div class="nouvelle-seance">
     <h1>Nouvelle séance</h1>
-  </div>
 
-  <div>
     <h2>Date de la séance :</h2>
     <input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2050-12-31"/>
-  </div>
 
-  <div>
     <h2>Etat début de séance</h2>
     <input type="number" placeholder="Note"/>
-  </div>
-
-  <div>
-    <button>-</button>
 
     <div>
-      <h2>Exercice X</h2>
-      <h3>Nom exercice</h3>
-      <input type="select" placeholder="Nom exercice"/>
-      <h3>Répétion</h3>
-      <input type="number" placeholder="Répétion"/>
-      <h3>Poids</h3>
-      <input type="number" placeholder="Poids"/>
-      <h3>Durée</h3>
-      <input type="number" placeholder="Minutes"/>
-      <input type="number" placeholder="Secondes"/>
-      <h3>Distance</h3>
-      <input type="number" placeholder="Kilomètres"/>
-      <input type="number" placeholder="Mètres"/>
+      <button>-</button>
+      <div>
+        <h2>Exercice X</h2>
+        <h3>Nom exercice</h3>
+        <input type="select" placeholder="Nom exercice"/>
+        <h3>Répétion</h3>
+        <input type="number" placeholder="Répétion"/>
+        <h3>Poids</h3>
+        <input type="number" placeholder="Poids"/>
+        <h3>Durée</h3>
+        <input type="number" placeholder="Minutes"/>
+        <input type="number" placeholder="Secondes"/>
+        <h3>Distance</h3>
+        <input type="number" placeholder="Kilomètres"/>
+        <input type="number" placeholder="Mètres"/>
+      </div>
+      <button>+</button>
     </div>
 
-    <button>+</button>
-  </div>
-
-  <div>
     <h2>Etat fin de séance</h2>
     <input type="number" placeholder="Note"/>
-  </div>
 
-  <button>Enregistrer la séance</button>
+    <button>Enregistrer la séance</button>
+  </div>
 </body>
 </html>
